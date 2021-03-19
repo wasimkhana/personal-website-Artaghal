@@ -1,9 +1,20 @@
 <template>
-  <Hero/>
+<section>
+<about/>
+<education/>
+<skills/>
+<projects/>
+</section>
 </template>
 
 <script>
-export default {}
+export default {
+  layout: 'index',
+  // OR
+  layout (context) {
+    return 'index'
+  }
+}
 </script>
 
 <style>

@@ -1,17 +1,21 @@
 <template>
-  <header class="text-gray-600 body-font bg-blue-800">
-  <div class="container mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center">
-    <NuxtLink to="/" class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-      <img  class="w-10 h-10  p-2 bg-gray-300 rounded-full" src="~/assets/graduation.png">
-      <span class="ml-3 text-xl">Artaghal</span>
-    </NuxtLink>
-    <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4  absolute right-0 	px-20	flex flex-wrap items-end text-gray-300 justify-end">
-      <NuxtLink to='/about' class="mr-5 hover:text-gray-900 hover" >About</NuxtLink>
-      <NuxtLink to='/project' class="mr-5 hover:text-gray-900">Project</NuxtLink>
-      <NuxtLink to='/service' class="mr-5 hover:text-gray-900">Services</NuxtLink>
-      <NuxtLink to='/blog' class="mr-5 hover:text-gray-900">Blog</NuxtLink>
-    </nav>
+<header>
+<nav class="bg-gray-800 ">
+  <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+    <div class="relative flex items-center justify-between h-16">
+      <div class="flex-1 flex items-center">
+        <div class="flex-shrink-0 flex items-center">
+          <NuxtLink to="/"><img  class="w-10 h-10  p-2 bg-gray-300 rounded-full" src="~/assets/graduation.png"></NuxtLink>
+          <NuxtLink to="/" class="hidden lg:block h-8 w-auto ml-3 text-xl text-gray-500 hover:text-gray-100" > Artaghal </NuxtLink>
+        </div>
+      </div>
+      <nav class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0 test-gray-100">
+        <NuxtLink to='/askme' class="mr-5 text-gray-500 hover:text-gray-100 ml-3 text-xl">Ask Me</NuxtLink>
+        <NuxtLink to='/blog' class="mr-5 text-gray-500 hover:text-gray-100 ml-3 text-xl">Blog</NuxtLink>
+      </nav>
+    </div>
   </div>
+</nav>
 </header>
 </template>
 
@@ -22,5 +26,8 @@ export default {
 </script>
 
 <style>
+.nuxt-link-exact-active{
+  color: white;
+}
 
 </style>

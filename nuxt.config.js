@@ -4,15 +4,19 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'personal-website',
+    title: 'Artaghal',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }
+    ],
+    script: [{
+   hid:'iconify', src: "https://code.iconify.design/1/1.0.7/iconify.min.js", defer:true },
+ ]
+
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
