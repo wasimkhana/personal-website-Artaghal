@@ -24,9 +24,7 @@
       <p class="mb-8 font-fans font-bold font-xl  items-center justify-center flex flex-row leading-relaxed">
      <span class="soft-skill px-1 text-lg sm:px-5 sm:text-2xl">  🅲O🅼🅼UN🅲🅰🆃i🅾🅽</span>
      <span class="soft-skill px-1 text-lg sm:px-5 sm:text-2xl">  🅿R🅾🅱🅻🅴🅼 🆂🅾🅻🆅🅸N🅶</span>
-     <span class="soft-skill px-1 text-lg sm:px-5 sm:text-2xl">  🅲R🅴🅰🆃I🆅IT🆈</span>
      <span class="soft-skill px-1 text-lg sm:px-5 sm:text-2xl">  🆃E🅰🅼 🆆🅾R🅺</span>
-     <span class="soft-skill px-1 text-lg sm:px-5 sm:text-2xl"> 🅴N🅶🅸🅽EE🆁🅸🅽G 🅴TH🅸C🆂</span>
       </p>
     </div>
   </div>
